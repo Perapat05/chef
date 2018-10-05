@@ -18,8 +18,8 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus-software
-  revision: 8773058b6cafc053159bbe24851bc7eeb407d492
-  branch: master
+  revision: dfbfecf7315dbe21081b0522252554ea433a236b
+  branch: lcg/add-chef-cleanup
   specs:
     omnibus-software (4.0.0)
       chef-sugar (>= 3.4.0)
@@ -31,13 +31,13 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     awesome_print (1.8.0)
-    aws-sdk (2.11.137)
-      aws-sdk-resources (= 2.11.137)
-    aws-sdk-core (2.11.137)
+    aws-sdk (2.11.143)
+      aws-sdk-resources (= 2.11.143)
+    aws-sdk-core (2.11.143)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.11.137)
-      aws-sdk-core (= 2.11.137)
+    aws-sdk-resources (2.11.143)
+      aws-sdk-core (= 2.11.143)
     aws-sigv4 (1.0.3)
     berkshelf (7.0.6)
       chef (>= 13.6.52)
@@ -174,7 +174,7 @@ GEM
     kitchen-vagrant (1.3.4)
       test-kitchen (~> 1.4)
     libyajl2 (1.2.0)
-    license_scout (1.0.15)
+    license_scout (1.0.16)
       ffi-yajl (~> 2.2)
       mixlib-shellout (~> 2.2)
       toml-rb (~> 1.0)
