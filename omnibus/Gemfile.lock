@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus-software
-  revision: dfbfecf7315dbe21081b0522252554ea433a236b
+  revision: 1102f0a61d1bc47fd50c465eaeed728725ffc357
   branch: lcg/add-chef-cleanup
   specs:
     omnibus-software (4.0.0)
